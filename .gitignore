@@ -1,0 +1,7 @@
+#Git ignore files
+.tmp
+.txt
+.md
+.log
+.db
+
