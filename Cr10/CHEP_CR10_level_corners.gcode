@@ -1,5 +1,7 @@
 ; Bed leveling Ender 3 by ingenioso3D
+;LINEARADVANCEPROCESSED
 ; Modified by elproducts CHEP FilamentFriday.com
+M900 K0.000000 T0 ;added by LinearAdvanceSettingPlugin
 
 G90
 
@@ -43,6 +45,7 @@ M0 ; Pause print
 
 G28;
 M84 ; disable motors
+
 
 
 
